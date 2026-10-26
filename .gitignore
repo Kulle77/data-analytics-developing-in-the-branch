@@ -1,0 +1,35 @@
+# Credentials and environment variables #
+.env
+
+# Virtual environments #
+venv/
+.venv/
+
+# OS generated files #
+######################
+.DS_Store
+__MACOSX
+*Zone.Identifier
+
+# Python and Jupyter Notebook #
+.pytest_cache
+__pycache__
+*checkpoint.ipynb
+*.ipynb_checkpoints
+*.egg-info
+*PKG-INFO
+
+# Data #
+data/
+*.gz
+*.csv
+*.zip
+*.sqlite
+*.duckdb
+
+# IDE #
+*.vscode
+.idea
+
+# Challengify - test challengification files
+*_challengify*
