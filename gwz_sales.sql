@@ -4,3 +4,4 @@
    ,ROUND(SUM(purchase_cost))
  FROM gwz_sales
  GROUP BY date_date
+ ORDER BY date_date DESC
